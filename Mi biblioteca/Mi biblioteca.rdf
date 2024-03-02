@@ -1,0 +1,348 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="http://link.springer.com/10.1007/s11222-018-9830-6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0960-3174,%201573-1375"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alonso</foaf:surname>
+                        <foaf:givenName>Andrés M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peña</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1"/>
+        <dc:title>Clustering time series by linear dependency</dc:title>
+        <dcterms:abstract>We present a new way to ﬁnd clusters in large vectors of time series by using a measure of similarity between two time series, the generalized cross correlation. This measure compares the determinant of the correlation matrix until some lag k of the bivariate vector with those of the two univariate time series. A matrix of similarities among the series based on this measure is used as input of a clustering algorithm. The procedure is automatic, can be applied to large data sets and it is useful to ﬁnd groups in Dynamic Factor Models. The cluster method is illustrated with some Monte Carlo experiments and a real data example.</dcterms:abstract>
+        <dc:date>7/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://link.springer.com/10.1007/s11222-018-9830-6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 10:43:54</dcterms:dateSubmitted>
+        <bib:pages>655-676</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0960-3174,%201573-1375">
+        <prism:volume>29</prism:volume>
+        <dc:title>Statistics and Computing</dc:title>
+        <dc:identifier>DOI 10.1007/s11222-018-9830-6</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Stat Comput</dcterms:alternative>
+        <dc:identifier>ISSN 0960-3174, 1573-1375</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1/Alonso y Peña - 2019 - Clustering time series by linear dependency.pdf"/>
+        <dc:title>Alonso y Peña - 2019 - Clustering time series by linear dependency.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://halweb.uc3m.es/esp/Personal/personas/amalonso/esp/Preprints/Clustering%20Time%20Series%20by%20Linear%20Dependency.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 10:43:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1007/s11222-018-9830-6">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1573-1375"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alonso</foaf:surname>
+                        <foaf:givenName>Andrés M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peña</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Correlation coefficient</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Correlation matrix</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Dynamic factor models</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Unsupervised learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Clustering time series by linear dependency</dc:title>
+        <dcterms:abstract>We present a new way to find clusters in large vectors of time series by using a measure of similarity between two time series, the generalized cross correlation. This measure compares the determinant of the correlation matrix until some lag k of the bivariate vector with those of the two univariate time series. A matrix of similarities among the series based on this measure is used as input of a clustering algorithm. The procedure is automatic, can be applied to large data sets and it is useful to find groups in dynamic factor models. The cluster method is illustrated with some Monte Carlo experiments and a real data example.</dcterms:abstract>
+        <dc:date>2019-07-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s11222-018-9830-6</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 10:57:17</dcterms:dateSubmitted>
+        <bib:pages>655-676</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1573-1375">
+        <prism:volume>29</prism:volume>
+        <dc:title>Statistics and Computing</dc:title>
+        <dc:identifier>DOI 10.1007/s11222-018-9830-6</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Stat Comput</dcterms:alternative>
+        <dc:identifier>ISSN 1573-1375</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/Alonso y Peña - 2019 - Clustering time series by linear dependency.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2Fs11222-018-9830-6.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 10:57:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.pnas.org/doi/10.1073/pnas.1804667115">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>116</prism:volume>
+                <dc:title>Proceedings of the National Academy of Sciences</dc:title>
+                <dc:identifier>DOI 10.1073/pnas.1804667115</dc:identifier>
+                <prism:number>2</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yating</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pizer</foaf:surname>
+                        <foaf:givenName>William A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Libo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <dc:title>Climate change and residential electricity consumption in the Yangtze River Delta, China</dc:title>
+        <dcterms:abstract>Estimating the impact of climate change on energy use across the globe is essential for analysis of both mitigation and adaptation policies. Yet existing empirical estimates are concentrated in Western countries, especially the United States. We use daily data on household electricity consumption to estimate how electricity consumption would change in Shanghai in the context of climate change. For colder days &lt;7 °C, a 1 °C increase in daily temperature reduces electricity consumption by 2.8%. On warm days &gt;25 °C, a 1 °C increase in daily temperatures leads to a 14.5% increase in electricity consumption. As income increases, households’ weather sensitivity remains the same for hotter days in the summer but increases during the winter. We use this estimated behavior in conjunction with a collection of downscaled global climate models (GCMs) to construct a relationship between future annual global mean surface temperature (GMST) changes and annual residential electricity consumption. We find that annual electricity consumption increases by 9.2% per +1 °C in annual GMST. In comparison, annual peak electricity use increases by as much as 36.1% per +1 °C in annual GMST. Although most accurate for Shanghai, our findings could be most credibly extended to the urban areas in the Yangtze River Delta, covering roughly one-fifth of China’s urban population and one-fourth of the gross domestic product.</dcterms:abstract>
+        <dc:date>2019-01-08</dc:date>
+        <z:libraryCatalog>pnas.org (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.pnas.org/doi/10.1073/pnas.1804667115</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 10:57:53</dcterms:dateSubmitted>
+        <dc:description>Publisher: Proceedings of the National Academy of Sciences</dc:description>
+        <bib:pages>472-477</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/Li et al. - 2019 - Climate change and residential electricity consump.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.pnas.org/doi/pdf/10.1073/pnas.1804667115</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 10:57:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0095069616304910">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0095-0696"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Peng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Junjie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Minpeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Agriculture</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>China</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Climate change</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humidity</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Wind speed</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Economic impacts of climate change on agriculture: The importance of additional climatic variables other than temperature and precipitation</dc:title>
+        <dcterms:abstract>Climate change shifts the distributions of a set of climatic variables, including temperature, precipitation, humidity, wind speed, sunshine duration, and evaporation. This paper explores the importance of those additional climatic variables other than temperature and precipitation. Using the county-level agricultural data from 1980 to 2010 in China, we find that those additional climatic variables, especially humidity and wind speed, are critical for crop growth. Therefore, omitting those variables is likely to bias the predicted impacts of climate change on crop yields. In particular, omitting humidity tends to overpredict the cost of climate change on crop yields, while ignoring wind speed is likely to underpredict the effect. Our preferred specification indicates that climate change is likely to decrease the yields of rice, wheat, and corn in China by 36.25%, 18.26%, and 45.10%, respectively, by the end of this century.</dcterms:abstract>
+        <dc:date>2017-05-01</dc:date>
+        <z:shortTitle>Economic impacts of climate change on agriculture</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0095069616304910</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 11:45:01</dcterms:dateSubmitted>
+        <bib:pages>8-31</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0095-0696">
+        <prism:volume>83</prism:volume>
+        <dc:title>Journal of Environmental Economics and Management</dc:title>
+        <dc:identifier>DOI 10.1016/j.jeem.2016.12.001</dc:identifier>
+        <dcterms:alternative>Journal of Environmental Economics and Management</dcterms:alternative>
+        <dc:identifier>ISSN 0095-0696</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/S0095069616304910.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0095069616304910</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 11:45:08</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/R_Overleaf_Integration.pdf"/>
+        <dc:title>R_Overleaf_Integration.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://static1.squarespace.com/static/5757268f7da24f26ca7b21d2/t/5c7587114192021796d7cc84/1551206162093/R_Overleaf_Integration.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 12:27:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://destio.us.es/calvo/asignaturas/ge_esco/tutorialusargitgithubrstudio/UsarGitGithubconRStudio.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_11"/>
+        <dc:title>Pedro Luque - Cómo usar Git/GitHub con R</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://destio.us.es/calvo/asignaturas/ge_esco/tutorialusargitgithubrstudio/UsarGitGithubconRStudio.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 12:43:05</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/11/UsarGitGithubconRStudio.html"/>
+        <dc:title>Pedro Luque - Cómo usar Git/GitHub con R</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://destio.us.es/calvo/asignaturas/ge_esco/tutorialusargitgithubrstudio/UsarGitGithubconRStudio.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 12:43:10</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="https://happygitwithr.com/hello-git.html">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hester</foaf:surname>
+                        <foaf:givenName>Jenny Bryan, the STAT 545 TAs, Jim</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:title>Chapter 7 Introduce yourself to Git | Happy Git and GitHub for the useR</dc:title>
+        <dcterms:abstract>In the shell (Appendix A): git config --global user.name &quot;Jane Doe&quot; git config --global user.email &quot;jane@example.com&quot; git config --global --list substituting your name and the email associated...</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>happygitwithr.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://happygitwithr.com/hello-git.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 12:59:56</dcterms:dateSubmitted>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/hello-git.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://happygitwithr.com/hello-git</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-03-02 13:00:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+</rdf:RDF>
